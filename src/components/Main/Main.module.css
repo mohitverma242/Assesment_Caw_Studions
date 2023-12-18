@@ -1,0 +1,82 @@
+.mainContainer{
+    width: 100%;
+    height: 15vh;
+    border: 0.1px solid rgb(0, 0, 0,0.5);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px;
+}
+.btnContainer{
+    width: 40%;
+    display: flex;
+    gap: 2rem;
+    margin-left: 2rem;
+    justify-content: center;
+    align-items:center;
+
+}
+.greatContainer{
+    margin-right: 0.2rem;
+}
+.orderContainer{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 2rem;
+}
+.orderNumber{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.btnBack{
+    padding: 0.5rem 1rem;
+    color: green;
+    border-radius: 20px;
+    border:  0.5px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   .btnApprove{
+        padding: 0.5rem;
+        color: white;
+        background-color: darkgreen ;
+        border-radius: 20px;
+        border: none;
+    }
+@media screen and (max-width:500px){
+    .btnContainer{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+        gap: 0.8rem;
+    }
+    .btnApprove{
+        height: 1.2rem;
+        font-size: 0.8rem;
+        padding: 0.2rem 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btnBack{
+        height: 1.2rem;
+        font-size: 0.8rem;
+        padding: 0.2rem 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainContainer{
+          margin-top: 10px;       
+    }
+    .orderContainer{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-left: 1rem;
+        font-size: 0.6rem;
+    }
+}

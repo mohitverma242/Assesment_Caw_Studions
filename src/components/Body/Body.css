@@ -1,0 +1,36 @@
+.col{
+    color: gray;
+    font-weight: normal;
+}
+.statContainer{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.depContainer{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.valContainer{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.datContainer{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+@media screen and (max-width:500px){
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+    }
+    h6{
+      font-size: 0.6rem;
+    }
+    .mainContainer{
+      width: 100%;
+      flex-wrap: wrap;
+    }
+}
